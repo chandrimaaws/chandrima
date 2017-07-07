@@ -1,0 +1,8 @@
+#Launch Jboss instance 
+- hosts: all
+  user: ec2-user
+  sudo: yes
+
+
+  roles:
+    - jboss_installation
